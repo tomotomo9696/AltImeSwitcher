@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>1.2.1</Version>
+    <ApplicationIcon>Assets\AltImeSwitcher.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="AltImeSwitcher.Tests" />
+    <EmbeddedResource Include="Assets\AltImeSwitcher.ico" LogicalName="AltImeSwitcher.AppIcon" />
+  </ItemGroup>
+
+</Project>
